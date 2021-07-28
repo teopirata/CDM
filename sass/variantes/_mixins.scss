@@ -1,0 +1,18 @@
+@mixin entradasA{
+    font-weight: 400;
+    text-decoration: none;
+    color: $gris;
+    }
+
+@mixin tamanoImagen{
+        width: 450px;
+        margin: 1rem;
+        }
+
+@mixin flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: $spaceMono;
+    font-size: 1rem;
+            }

@@ -1,0 +1,12 @@
+$montserrat:'Montserrat';
+$spaceMono: 'Space Mono';
+
+$size:1.1rem;
+p{
+    @if($size == 2rem){
+        $size:2rem;
+    }
+    @else if ($size == 3rem){
+        $size:3rem;
+    }
+}

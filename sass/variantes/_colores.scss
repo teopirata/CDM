@@ -1,0 +1,19 @@
+
+/*Colores del branding de la marca*/
+$gris: #ececec;
+$negro: #09090b;
+$azul: #245cea;
+$amarillo: #f6f423;
+$fucsia: #ec4187;
+
+$listacolores: #ececec, #09090b, #245cea, #f6f423, #ec4187;
+
+$colorFace: nth($listacolores, 3);
+
+// Each sobre lista de colores. NO se esta usando, solo prueba de uso
+
+@each $color in $listacolores {
+    .colores-#{$color} {
+        color: $color;
+    }
+}

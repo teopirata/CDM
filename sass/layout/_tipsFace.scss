@@ -1,0 +1,61 @@
+/*grid para la seccion Main*/
+
+// MAPA
+$mapaAncho:(
+    width:480px,
+    width2:400px,
+    width3:350px,
+);
+
+$ancho: map-get($mapaAncho, width);
+// FIN MAPA
+
+.clasesGridMain{
+    @include flex;
+}
+
+p{
+    font-size: $size;
+}
+.clasesGridMain .entrada{
+    width: $ancho;
+    border-radius: 9px;
+    box-shadow: 0 5px 7px $fucsia;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.2s;
+    margin-left: 30px;
+    margin-top: 30px;   
+    color: $colorFace;
+}
+
+.clasesGridMain .entrada:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 16px $azul;
+}
+
+.clasesGridMain .entrada a{
+    font-weight: 400;
+    text-decoration: none;
+    color: $gris;
+}
+
+.clasesGridMain img{
+    width: 450px;
+    margin: 1rem;
+}
+
+
+@media only screen and (max-width: 768px){
+    .clasesGridMain{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    .clasesGridMain .entrada:first-child{
+        margin: 0;
+    }
+
+}
