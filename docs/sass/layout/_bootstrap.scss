@@ -1,0 +1,45 @@
+
+.clasesGridFooter_bootstrap p{
+    margin-top: 20px;
+}
+
+/*Fuente*/
+.contenedorBootstrap{
+    font-family: $spaceMono;
+    font-size: 1rem;
+}
+
+/*Color de Fuente*/
+.contenedorBootstrapColor{
+    font-family: $spaceMono;
+    color: #dedee0;
+    font-size: 0.8rem;
+
+}
+/*para Cards de "quienes Somos"*/
+
+.rotate-center {
+	-webkit-animation: rotate-center 0.8s ease-in-out both;
+	animation: rotate-center 0.8s ease-in-out both;
+}
+
+    @-webkit-keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+            transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    }
+                                    }   
+    @keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    }
+                                }
