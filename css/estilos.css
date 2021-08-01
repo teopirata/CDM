@@ -189,3 +189,39 @@ body {
 .paraLogosDeMenuDos__1:hover {
   width: 40px;
   transition: width .3s; }
+
+  .colorTexto{
+    color: #f6f423;
+}
+
+.colorTexto_form{
+  color: #dedee0;
+}
+
+.img-1 {
+  background-image: url('/img/celular.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.img-2 {
+  background-image: url('/img/llegamos.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.fondoBotonRosa{
+  background-color: #ec4187;
+}
+
+.fondoBotonAmarillo{
+  background-color: #f6f423;
+}
+
+.fondoBotonAzul{
+  background-color: #245cea;
+}
+
+.formCenter{
+  justify-content: center;
+}

@@ -1,0 +1,43 @@
+:root {
+    --dark: #16191C;
+    --dark-x: #1E2126; 
+    --light: #ffffff;
+}
+
+.text-light { color: var(--light); }
+.bg-dark { background-color: var(--dark); }
+.bg-dark-x { background-color: var(--dark-x); }
+
+.btn {
+    min-height: 3.125rem;
+    font-weight: 600;
+}
+
+.form-control {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.form-control:focus {
+    background-color: var(--dark-x);
+    outline: none;
+}
+
+.img-1 {
+    background-image: url('/img/celular.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url('/img/llegamos.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.colorTexto{
+    color: #f6f423;
+}
+
+.colorTexto_form{
+  color: #dedee0;
+}
