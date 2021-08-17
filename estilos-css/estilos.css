@@ -93,6 +93,29 @@ p {
   width: 450px;
   margin: 1rem; }
 
+.fuenteTitulo {
+  font-family: Montserrat;
+  color: #ec4187; }
+
+.fuenteArticulos {
+  font-family: JetBrains Mono, monospace;
+  color: antiquewhite; }
+
+.textoAmarillo {
+  color: #f6f423; }
+
+.margenesArticulos {
+  margin-top: 5rem; }
+
+.textoAzul {
+  color: #245cea; }
+
+#imagenesArticulos {
+  size: 10px; }
+
+.parrafoConFondo {
+  background-color: #ec4187; }
+
 /*Contenedor del grid en el index y pagina tips instagram*/
 .clasesGridMainIg {
   display: flex;
@@ -162,9 +185,12 @@ p {
     transform: rotate(360deg); } }
 
 .articulo {
-  font-size: 2rem;
+  font-size: 16rem;
   color: #09090b;
   background-color: #ec4187; }
+
+h1 {
+  font-size: 2.5rem; }
 
 :root {
   --dark: #16191C;
@@ -193,17 +219,20 @@ p {
   outline: none; }
 
 .img-1 {
-  background-image: url("img-1.jpg");
+  background-image: url("/img/celular.png");
   background-size: cover;
   background-position: center; }
 
 .img-2 {
-  background-image: url("img-2.jpg");
+  background-image: url("/img/llegamos.png");
   background-size: cover;
   background-position: center; }
 
-.colortexto {
-  color: #ec4187; }
+.colorTexto {
+  color: #f6f423; }
+
+.colorTexto_form {
+  color: #dedee0; }
 
 /*Tamaño fuente para TODO el documento*/
 html {

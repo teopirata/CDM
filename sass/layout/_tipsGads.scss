@@ -30,3 +30,34 @@
 .clasesGridMainGads img{
     @include tamanoImagen;
 }
+
+.fuenteTitulo{
+    font-family: Montserrat;
+    color: #ec4187;
+}
+
+
+.fuenteArticulos{
+    font-family: JetBrains Mono, monospace;
+    color: antiquewhite;
+}
+
+.textoAmarillo{
+    color: #f6f423;;
+}
+
+.margenesArticulos{
+    margin-top: 5rem;
+}
+
+.textoAzul{
+    color: #245cea;
+}
+
+#imagenesArticulos{
+    size: 10px;
+}
+
+.parrafoConFondo{
+    background-color:#ec4187 ;
+}
